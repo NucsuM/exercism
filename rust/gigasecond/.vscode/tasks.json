@@ -1,0 +1,22 @@
+{
+    "version": "0.1.0",
+    "command": "cargo",
+    "isShellCommand": false,
+    "showOutput": "always",
+    "tasks": [
+        {
+            "taskName": "build",
+            "isBuildCommand": true
+        },
+        {
+            "taskName": "clean"
+        },
+        {
+            "taskName": "run"
+        },
+        {
+            "taskName": "test",
+            "isTestCommand": true
+        }
+    ]
+}
